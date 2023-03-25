@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es"> 
+<head> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index, follow"/>
+
+    <link rel="stylesheet" href="./index.css">
+    <title>Giannotti Tiago</title>
+</head>
+<body>
+    <header>
+        <h1>Giannotti Tiago</h1>
+    </header>
+
+    <h2 id="Desarrollador-web">Desarrollador Web</h2>
+
+    <p id="barra-colores-1"></p>
+
+    <div class="Datos">
+
+        <img src="./imagenes/imagen-cv.jpg" alt="Imagen de hombre de CV" id="imagen-CV">
+
+    <h2><i class="fa-solid fa-circle-user"></i> Datos Personales</h2>
+    <ul>
+        <li>Fecha de Nacimiento: 30-11-2002</li>
+        <li>Nacionalidad: Argentina</li>
+        <li>Residencia: Haedo, Argentina</li>
+    </ul>
+    <h2><i class="fa-solid fa-laptop-code"></i> Hard Skills</h2>
+
+    <div class="Hard-Skills">
+
+        <div class="circular-progress-1">
+            <div class="outer-1">
+                <div class="inner-1">
+                    <div id="number-1"><h3 id="idioma1">Inglés</h3>100%</div>
+                </div>
+            </div>
+            <svg width="160px" height="160px">
+                <defs>
+                    <lineargradient id="GradientColor-1">
+                        <stop offset="0%" stop-color="#F6F72D"/>
+                        <stop offset="100%" stop-color="#F72D6A"/>
+                    </lineargradient>
+                </defs>
+                <circle id="circle-1" cx="80" cy="80" r="70" stroke-linecap="round" />
+            </svg>
+        </div>
+
+        <div class="circular-progress-2">
+            <div class="outer-2">
+                <div class="inner-2">
+                    <div id="number-2"><h3 id="idioma1">Español</h3>100%</div>
+                </div>
+            </div>
+            <svg width="160px" height="160px">
+                <defs>
+                    <lineargradient id="GradientColor-2">
+                        <stop offset="0%" stop-color="#F72D6A"/>
+                        <stop offset="100%" stop-color="#BC2DF7"/>
+                    </lineargradient>
+                </defs>
+                <circle id="circle-2" cx="80" cy="80" r="70" stroke-linecap="round" />
+            </svg>
+        </div>
+
+
+        </div>
+
+    <h2><i class="fa-solid fa-palette"></i> Soft Skills</h2>
+    <ul>
+        <li>Creatividad</li>
+        <li>Proactividad</li>
+        <li>Comunicación</li>
+        <li>Creatividad</li>
+    </ul>
+
+    <h2><i class="fa-solid fa-graduation-cap"></i> Educación</h2> 
+    <ul>
+        <li>Certificate in Advanced English (CAE)| Marzo 2022 - Actualidad</li>
+        <li>Ingeniería en Informática | Abril 2021 - Actualidad</li>
+        <li>Bachiller en economia | Marzo 2014 - Noviembre 2020</li>
+    </ul>
+
+
+    <h2><i class="fa-solid fa-briefcase"></i> Experiencia</h2>
+    <ol>
+        <li>
+            <h3>Asistente de Examen</h3>
+            <h4>ESSARP | Octubre 2022 - Noviembre 2022</h4>
+            <ul>
+                <li>Supervisión de los estudiantes en situación de examen para que se
+                    cumplan las normas y condiciones propuestas por Cambridge</li>
+            </ul>
+        </li>
+        <li>
+            <h3>Fichaje</h3>
+            <h4>E.D.E.F.I | diciembre 2021 - Marzo 2022</h4>
+            <ul>
+                <li>Ingreso de datos de los jugadores de la liga de futbol para su correcto registro en esta</li>
+            </ul>
+        </li>
+    </ol>
+
+</div>
+
+</body>
+<footer>
+    <p id="barra-colores-2"></p>
+
+    <button id="Contactar" onclick="MostrarTelefono()">Contactar</button>
+    <p id="telefono"></p>
+
+    <script>
+         function MostrarTelefono(){
+            document.getElementById("telefono").innerHTML = "1133060303 // tiago.giannotti.02@gmail.com";
+         }
+    </script>
+
+</footer>
+
+</html>
